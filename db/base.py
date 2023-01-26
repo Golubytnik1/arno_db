@@ -84,8 +84,3 @@ def order_process(data):
                  'day': data['day'],
                  'product_id': data['product_id']})
     db.commit()
-
-
-init()
-create_tables()
-populate_products()
